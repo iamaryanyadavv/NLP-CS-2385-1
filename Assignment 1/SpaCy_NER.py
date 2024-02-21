@@ -33,7 +33,7 @@ for index, row in data.iterrows():
         for i in range(ent.start + 1, ent.end):
             spacy_ner_tags[i] = f'I-{ent.label_}'
 
-    aligned_ner_tags = spacy_ner_tags[:len(row['Word'])]  # Align NER tags similarly
+    aligned_ner_tags = spacy_ner_tags[:len(row['Word'])]
 
     true_ner_tags.extend(row['Tag'])
     pred_ner_tags.extend(aligned_ner_tags)

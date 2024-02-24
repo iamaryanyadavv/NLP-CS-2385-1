@@ -9,6 +9,6 @@
    
 3. NLTK
    
-   a. POS -
+   a. POS - 0.9589
    
    b. NER - 

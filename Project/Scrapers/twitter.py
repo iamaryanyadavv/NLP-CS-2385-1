@@ -1,10 +1,10 @@
 import tweepy
 import pandas as pd
 
-consumer_key = "************" #Your API/Consumer key 
-consumer_secret = "*********" #Your API/Consumer Secret Key
-access_token = "***********"    #Your Access token key
-access_token_secret = "*************" #Your Access token Secret key
+consumer_key = "" #Your API/Consumer key 
+consumer_secret = "" #Your API/Consumer Secret Key
+access_token = "" #Your Access token key
+access_token_secret = "" #Your Access token Secret key
 
 #Pass in our twitter API authentication key
 auth = tweepy.OAuth1UserHandler(
@@ -15,9 +15,8 @@ auth = tweepy.OAuth1UserHandler(
 #Instantiate the tweepy API
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
-
-search_query = "'ref''world cup'-filter:retweets AND -filter:replies AND -filter:links"
-no_of_tweets = 100
+search_query = "'ref''ipl2024 indianpremierleague'-filter:retweets AND -filter:links"
+no_of_tweets = 1000
 
 try:
     #The number of tweets we want to retrieved from the search

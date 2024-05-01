@@ -1,1 +1,12 @@
 /nlpfinal
+
+/Project/data/filtered_and_cleaned_tweets.csv
+/Project/data/IPL_2022_tweets.csv
+/Project/data/player_tweets.csv
+/Project/data/sentiment_labeled_tweets.csv
+/Project/scrapers/ipl_tweets.csv
+/Project/model/IPL22_BERT
+/Project/model/IPL22_BERT_2
+
+/Project/model/results
+/Project/model/logs
